@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <!--begin seo-->
-    <meta name="copyright" content="©️ 2020 Holger GPLv3.0">
-    <meta name="author" content="Holger" />
+    <meta name="copyright" content="©️ 2020 Bainuo GPLv3.0">
+    <meta name="author" content="Bainuo" />
     <title>Minimalist Search - A homepage for everyone</title>
-    <meta name="keywords" content="Holger,Holger's Blog,aggregator,index,homepage,start,开始界面,网站聚合,主页,网址大全,网址导航">
+    <meta name="keywords" content="Bainuo,Bainuo's Blog,aggregator,index,homepage,start,开始界面,网站聚合,主页,网址大全,网址导航">
     <meta name="description" content="Minimalist Search - A clean, simple, comprehensive homepage for everyone! With all common sites hidden in sidebar, fully customized quick navigation, choose your favorite search engine, and dark-mode ready!">
     <!-- / FB Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://i.holger.net.cn">
+    <meta property="og:url" content="https://i.Bainuo.net.cn">
     <meta property="og:title" content="Minimalist Search - A homepage for everyone">
     <meta property="og:description" content="Minimalist Search - A clean, simple, comprehensive homepage for everyone! With all common sites hidden in sidebar, fully customized quick navigation, choose your favorite search engine, and dark-mode ready!">
     <meta property="og:image" content="./static/images/avatar.png">
@@ -32,7 +32,7 @@
     <!--引用Google Fonts Josefin Sans-->
     <link rel="manifest" href="static/manifest.json">
     <script type="text/javascript" src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <!--load sw.js ©️holger-->
+    <!--load sw.js ©️Bainuo-->
     <script async>
         'use strict';
         'serviceWorker' in navigator && navigator.serviceWorker.register('service-worker.js').then(function(a) {
@@ -294,7 +294,7 @@
                         <!--搜索引擎设置-->
                         <div class="set_blocks">
                             <div class="set_blocks_title">
-                                Search Engines
+                                搜索引擎
                             </div>
                             <div class="set_blocks_content">
                                 <div class="se_list">
@@ -320,34 +320,34 @@
                                     </table>
                                 </div>
                                 <div class="se_add_preinstall">
-                                    <button class="set_se_list_add"><span class="icon iconfont icontianjia"></span>Add new</button>
-                                    <button class="set_se_list_preinstall"><span class="icon iconfont iconjinggao"></span>Reset</button>
+                                    <button class="set_se_list_add"><span class="icon iconfont icontianjia"></span>添加</button>
+                                    <button class="set_se_list_preinstall"><span class="icon iconfont iconjinggao"></span>还原</button>
                                 </div>
                                 <div class="add_content se_add_content" style="display:none;">
                                     <div class="from_items">
-                                        <p><b>Sequence:</b></p>
+                                        <p><b>顺序:</b></p>
                                         <input type="hidden" name="key_inhere">
-                                        <input type="number" name="key" placeholder="A valid number">
+                                        <input type="number" name="key" placeholder="请输入整数，对应显示顺序">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Name:</b></p>
-                                        <input type="text" name="title" placeholder="Name">
+                                        <p><b>名称:</b></p>
+                                        <input type="text" name="title" placeholder="网站名称">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>URL</b></p>
-                                        <input type="url" name="url" placeholder="Begin with https://">
+                                        <p><b>链接</b></p>
+                                        <input type="url" name="url" placeholder="链接，如:https://bainuo.club">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Query</b></p>
-                                        <input type="text" name="name" placeholder="Queries after ?">
+                                        <p><b>查询</b></p>
+                                        <input type="text" name="name" placeholder="查询格式，如q，wd。不懂请百度">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Icon</b></p>
-                                        <input type="text" name="img" placeholder="Img URL">
+                                        <p><b>图标</b></p>
+                                        <input type="text" name="img" placeholder="图片外链，推荐使用森七图床">
                                     </div>
                                     <div class="from_items button">
-                                        <button class="se_add_save">Save</button>
-                                        <button class="se_add_cancel">Cancel</button>
+                                        <button class="se_add_save">保存</button>
+                                        <button class="se_add_cancel">取消</button>
                                     </div>
                                 </div>
                             </div>
@@ -356,14 +356,14 @@
                         <!--快捷方式设置-->
                         <div class="set_blocks">
                             <div class="set_blocks_title">
-                                Shortcuts
+                                快捷方式
                             </div>
                             <div class="set_blocks_content">
                                 <div class="quick_list">
                                     <table class="quick_list_table">
                                         <tr>
                                             <td>1.&nbsp;</td>
-                                            <td>Holger's Blog</td>
+                                            <td>nuo's Blog</td>
                                             <td>
                                                 <button class="edit_quick" value="1"><span class="iconfont iconbook-edit"></span></button> &nbsp;
                                                 <button class="delete_quick" value="1"><span class="iconfont icondelete"></span></button>
@@ -380,30 +380,30 @@
                                     </table>
                                 </div>
                                 <div class="se_add_preinstall">
-                                    <button class="set_quick_list_add"><span class="icon iconfont icontianjia"></span>Add new</button>
-                                    <button class="set_quick_list_preinstall"><span class="icon iconfont iconjinggao"></span>Reset</button>
+                                    <button class="set_quick_list_add"><span class="icon iconfont icontianjia"></span>添加</button>
+                                    <button class="set_quick_list_preinstall"><span class="icon iconfont iconjinggao"></span>恢复</button>
                                 </div>
                                 <div class="add_content quick_add_content" style="display:none;">
                                     <div class="from_items">
-                                        <p><b>Sequence:</b></p>
+                                        <p><b>顺序:</b></p>
                                         <input type="hidden" name="key_inhere">
-                                        <input type="number" name="key" placeholder="A valid number">
+                                        <input type="number" name="key" placeholder="请输入整数，对应显示顺序">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Name:</b></p>
-                                        <input type="text" name="title" placeholder="Name">
+                                        <p><b>名称:</b></p>
+                                        <input type="text" name="title" placeholder="网站名称">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>URL:</b></p>
-                                        <input type="url" name="url" placeholder="Begin with https://">
+                                        <p><b>链接:</b></p>
+                                        <input type="url" name="url" placeholder="链接，如:https://bainuo.club">
                                     </div>
                                     <div class="from_items">
-                                        <p><b>Icon:</b></p>
-                                        <input type="text" name="img" placeholder="Img URL">
+                                        <p><b>图标:</b></p>
+                                        <input type="text" name="img" placeholder="图片外链，推荐使用森七图床">
                                     </div>
                                     <div class="from_items button">
-                                        <button class="quick_add_save">Save</button>
-                                        <button class="quick_add_cancel">Cancel</button>
+                                        <button class="quick_add_save">保存</button>
+                                        <button class="quick_add_cancel">取消</button>
                                     </div>
                                 </div>
                             </div>
@@ -422,11 +422,11 @@
                     <div class="my_data">
                         <hr>
                         <br>
-                        <h3>Backup</h3>
+                        <h3>备份</h3>
                         <textarea id="data_txt"></textarea>
                         <br>
-                        <button id="my_data_in">Import</button>
-                        <button id="my_data_out">Export</button>
+                        <button id="my_data_in">导入</button>
+                        <button id="my_data_out">导出</button>
                     </div>
                 </div>
                 <!--我的 end-->
@@ -480,7 +480,7 @@
                 </form>
                 <div class="search-engine" style="display: none;">
                     <div class="search-engine-head">
-                        <strong class="search-engine-tit">Select Search Engine</strong>
+                        <strong class="search-engine-tit">选择搜索引擎</strong>
                     </div>
                     <ul class="search-engine-list">
                         <li class="se-li" url="https://www.baidu.com/s" name="wd" img="static/icon/baidu.ico"><img src="static/icon/baidu.ico"></img>百度</li>
@@ -493,14 +493,14 @@
                 </div>
                 <div class="quick-div">
                     <ul class="quick-ul">
-                        <li class="quick" data-s="bilibili" target="_blank" title="Holger's Blog">
-                            <a target=_blank href="https://blog.holger.net.cn">
-                                <i style="background-image: url(./static/images/avatar-300x300.webp);"></i> Blog
+                        <li class="quick" data-s="bilibili" target="_blank" title="Bainuo's Blog">
+                            <a target=_blank href="https://blog.Bainuo.club">
+                                <i style="background-image: url(https://blog.bainuo.club/wp-content/uploads/2020/05/1-1.png);"></i> 诺's Blog
                             </a>
                         </li>
                         <li class="quick" data-s="github" target="_blank" title="SNS">
-                            <a target=_blank href="https://sns.holger.net.cn/">
-                                <i style="background-image: url(https://sns.holger.net.cn/favicon.ico);"></i> SNS
+                            <a target=_blank href="https://bilibili.com/">
+                                <i style="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589004544&di=41c7c261c16e4dfdd37ff6a28cb857a4&src=http://cos2.solepic.com/20200305/b_2979134202003052053139576.png);"></i> bilibili
                             </a>
                         </li>
                         <li class="quick" data-s="scp" target="_blank" title="GitHub">
@@ -539,7 +539,7 @@
                         console.error(err);
                     })
             </script>
-            <!--今日诗词 placeholder copyright holger-->
+            <!--今日诗词 placeholder copyright Bainuo-->
             <script>
                 jinrishici.load(function(result) {
                     var telecopy = result.data.content;
@@ -559,11 +559,11 @@
             <!--今日诗词 placeholder end-->
         </div>
         <div class="foot">
-            ©️ 2020 Minimalist Search by
-            <a href="https://blog.holger.net.cn/about/" target="_blank"><b>Holger</b></a>
-            <p> v0.4-beta
+            ©️ 2020 Bai Mu search Search by
+            <a href="https://bainuo.club" target="_blank"><b>Bainuo</b></a>
+            <p> v0.6-beta
                 <pss>
-                    <a href='http://i.holger.net.cn' target='_blank'> </a>&nbsp;&nbsp;
+                    <a href='https://bainuo.club' target='_blank'> </a>&nbsp;&nbsp;
                     <ping></ping>
                 </pss>
             </p>

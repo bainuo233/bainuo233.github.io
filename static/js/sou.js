@@ -4,13 +4,11 @@
 github：https://github.com/5iux/sou
 日期：2019-07-26
 版权所有，请勿删除
-❶❷❸❹❺❻❼❽❾❿
-由 yeetime 修改
-github：https://github.com/yeetime/sou2
-日期：2019-12-13
-Modified by Holger Huo
-https://blog.holger.net.cn/
-Apr.11 2020
+由 bainuo 修改
+github：https://github.com/bainuo233/
+日期：2020-5-10
+Modified by bainuo
+https://blog.bainuo.club/
 */
 
 $(document).ready(function() {
@@ -19,19 +17,20 @@ $(document).ready(function() {
     var se_list_preinstall = {
         '1':{
             id      :1,
-            title   :"Google",
-            url     :"https://www.google.com/search",
-            name    :"q",
-            img     :"./static/icon/google_1.png",
-
-        },
-        '2':{
-            id      :2,
             title   :"百度",
             url     :"https://www.baidu.com/s",
             name    :"wd",
             img     :"./static/icon/baidu.ico",
         },
+		
+		
+		'2':{
+            id      :2,
+            title   :"Google",
+            url     :"https://www.google.com/search",
+            name    :"q",
+            img     :"./static/icon/google_1.png",
+		},
         '3':{
             id      :3,
             title   :"Bing CN",
@@ -65,29 +64,29 @@ $(document).ready(function() {
     //主页快捷方式【预设】
     var quick_list_preinstall = {
         '1':{
-            title   :"Blog",
-            url     :"https://blog.holger.net.cn/",
-            img     :"https://i.holger.net.cn/static/images/avatar-300x300.webp",
-            explain :"Holger's Blog",
+            title   :"诺's Blog",
+            url     :"https://blog.bainuo.club/",
+            img     :"https://blog.bainuo.club/wp-content/uploads/2020/05/1-1.png",
+            explain :"白诺的博客",
         },
         '2':{
-            title   :"SNS",
-            url     :"https://sns.holger.net.cn",
-            img     :"https://sns.holger.net.cn/favicon.ico",
-            explain :"Notre Monde",
+            title   :"bilibili",
+            url     :"https://bilibili.com",
+            img     :"https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589004544&di=41c7c261c16e4dfdd37ff6a28cb857a4&src=http://cos2.solepic.com/20200305/b_2979134202003052053139576.png",
+            explain :"哔哩哔哩",
 
         },
         '3':{
-            title   :"V2EX",
-            url     :"https://www.v2ex.com/",
-            img     :"./static/icon/v2ex.png",
-            explain :"V2EX",
+            title   :"翻译",
+            url     :"https://fanyi.baidu.com/",
+            img     :"https://fanyi-cdn.cdn.bcebos.com/static/translation/img/favicon/favicon-32x32_ca689c3.png",
+            explain :"百度翻译",
         },
         '4':{
-            title   :"Steam",
-            url     :"https://store.steampowered.com/",
-            img     :"./static/icon/steam.ico",
-            explain :"Steam",
+            title   :"Email",
+            url     :"https://mail.qq.com/",
+            img     :"https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1273608748,188726047&fm=26&gp=0.jpg",
+            explain :"QQ邮箱",
         },
         '5':{
             title   :"GitHub",

@@ -1,5 +1,9 @@
 /*
-    Copyright 2020 Holger https://holger.net.cn Under GPLv3.0 @ https://github.com/holgerhuo/minimalist-search
+版权所有，请勿删除
+bainuo:github：https://github.com/bainuo233/
+日期：2020-5-10
+Modified by bainuo
+https://blog.bainuo.club/
 */
 const hasNativePrefersColorScheme =
         window.matchMedia('(prefers-color-scheme)').media !== 'not all';
